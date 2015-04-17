@@ -3,6 +3,7 @@ body, html, #app-body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: blue;
 }
 
 .whiteboard {
@@ -11,6 +12,7 @@ body, html, #app-body {
   border: 1px solid #000000;
   margin: 15px 0 15px 15px;
   display: inline-block;
+  cursor: crosshair;
 }
 
 .whiteboard-controls {
@@ -24,4 +26,17 @@ body, html, #app-body {
 
 .whiteboard-controls h2 {
   text-align: center;
+}
+
+.whiteboard-setting {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.whiteboard-setting input[type='text'], .whiteboard-setting input[type='number']{
+  float: right;
+}
+
+.whiteboard-setting button.half-button{
+  width: 49%;
 }

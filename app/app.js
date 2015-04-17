@@ -6,7 +6,8 @@
   // Declare app level module which depends on views, and components
   angular.module('whiteboardDemo', [
     'ui.router',
-    'ngTouch'
+    'ngTouch',
+    'angularFileUpload'
   ]).
   config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 

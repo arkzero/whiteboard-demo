@@ -12,6 +12,9 @@
     "angular-mocks": "~1.2.x",
     "html5-boilerplate": "~4.3.0",
     "angular-ui-router": "~0.2.7",
-    "angular-touch": "*"
+    "angular-touch": "*",
+    "ng-file-upload": "~1.1",
+    "fabric": "~1.5.0",
+    "jquery": "~1.10"
   }
 }

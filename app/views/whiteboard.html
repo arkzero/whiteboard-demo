@@ -1,4 +1,4 @@
-<whiteboard class="whiteboard" line-width="lineWidth" line-color="lineColor" ></whiteboard>
+<whiteboard class="whiteboard" line-width="lineWidth" line-color="lineColor" paint-mode="paintMode" move-mode="moveMode"></whiteboard>
 
 <div class="whiteboard-controls">
   <h2>Whiteboard Controls</h2>
@@ -14,7 +14,21 @@
   </div>
 
   <div class="whiteboard-setting">
-    <button ng-click="clearBoard()">Clear Board</button>
+    <span class="setting-label">Add Image to Whiteboard</span>
+    <input type="file" ng-model="imageFile" ng-file-select="addImage($files)">
+  </div>
+
+  <div class="whiteboard-setting">
+    <button class="half-button" ng-click="togglePaintMode()" ng-disabled="paintMode">
+      Paint
+    </button>
+    <button class="half-button" ng-click="toggleMoveMode()" ng-disabled="moveMode">
+      Move
+    </button>
+  </div>
+
+  <div class="whiteboard-setting">
+    <button ng-click="clearBoard()" class="center">Clear Board</button>
   </div>
 
 </div>
