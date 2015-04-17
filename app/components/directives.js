@@ -27,7 +27,7 @@
         // Fill Container with Canvas
         scope.fabric.setDimensions({width:element.prop('offsetWidth') - 2, height: element.prop('offsetHeight') - 2});
 
-        // Touch Events 
+        // Touch Events
         //scope.$canvas.addEventListener('touchstart', scope.brushDown, false);
         //scope.$canvas.addEventListener('touchmove', scope.brushMove, false);
         //scope.$canvas.addEventListener('touchend', scope.brushUp, false);
