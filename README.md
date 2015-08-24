@@ -8,7 +8,7 @@ Required: [Node.js](https://nodejs.org/download/), [NPM](https://www.npmjs.com/)
 
 ### Step 1: Pull down Repo
 
-Pull down this repo to your local machine using git clone.  `git clone git@github.com:mykabam/whiteboard-demo.git`
+Pull down this repo to your local machine using git clone.  `git clone git@github.com:arkzero/whiteboard-demo.git`
 
 ### Step 2: Install Bower Modules 
 
